@@ -57,4 +57,8 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    implementation(libs.bundles.koin)
+
+    implementation(libs.smart.exception.java)
+    implementation(files("libs/ffmpeg-kit-full-gpl-6.0-2.LTS.aar"))
 }
